@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/background.jpg");
+    background-size: 500px 500px;
+}
+#container {
+    border: solid 3px #8a8828;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px;
+    background-color: rgba(235, 229, 178, 0.705);
+    margin: 40px auto 30px;
+    width: 70%;
+    text-align: center;
+}
+h2 {
+    padding-top: 30px;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@font-face {
+    font-family: escritura;
+    src: url("../fonts/AlexBrush-Regular.ttf");
+}
+p {
+    font-family: escritura, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
